@@ -1,0 +1,8 @@
+{
+  "name": "HIPAA Shield™ | 42 CFR Part 2 & HIPAA Alignment Portal",
+  "description": "The definitive audit-prep platform for 42 CFR Part 2 and HIPAA alignment. Specialized evidence artifacts and documentation firewalls for clinics and SUD providers.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
