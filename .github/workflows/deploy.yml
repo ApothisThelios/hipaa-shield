@@ -2,7 +2,7 @@ name: Deploy HIPAA Shield Site
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
 
 permissions:
   contents: read
@@ -22,9 +22,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
 
-      - run: npm ci
+      - run: npm install
       - run: npm run build
 
       - uses: actions/configure-pages@v5
